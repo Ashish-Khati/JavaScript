@@ -35,6 +35,6 @@ const result=Student('Ashish Khati','CSE','Rishikesh',100,['playing cricket','co
 console.log(result)
 console.log(Student.prototype.marks(result.mark));
 result.about();
-result.hobbies();
+result.hobbies(result.hobby);
 
              
